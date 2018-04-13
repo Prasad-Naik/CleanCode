@@ -1,0 +1,42 @@
+﻿@model AQR.DomainModels.User
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<div style="font-family: Arial">    
+    <h2>Login</h2>  
+      
+    @using (Html.BeginForm("Login", "User", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+    <table style="border:solid 1px Black">
+        <tr style="border:solid 1px Black">
+            <td style="border:solid 1px Black">@Html.LabelFor(a => a.FirstName)</td>
+            <td style="border:solid 1px Black">@Html.TextBoxFor(a => a.FirstName)</td>
+            <td style="border:solid 1px Black">@Html.ValidationMessageFor(a => a.FirstName)</td>
+        </tr>
+        <tr style="border:solid 1px Black">
+            <td style="border:solid 1px Black">
+                @Html.LabelFor(a => a.Password)
+            </td>
+            <td style="border:solid 1px Black">
+                @Html.PasswordFor(a => a.Password)
+            </td>
+            <td style="border:solid 1px Black">
+                @Html.ValidationMessageFor(a => a.Password)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="submit" value="Login" />
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    }
+</div>
+

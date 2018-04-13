@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.Repository", "AQR.Repository\AQR.Repository.csproj", "{39C1C2D5-29DF-4093-AAA7-B344AA537CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.DomainModels", "AQR.Models\AQR.DomainModels.csproj", "{2EBC3E7F-D65D-4810-BD2C-BF2D2DCD416F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.UserManagement", "AQR.PresentationLayer\AQR.UserManagement.csproj", "{DF30DE83-6D27-46FF-A6AB-1CAE6ED4DFBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.BusinessLayer", "AQR.BusinessLayer\AQR.BusinessLayer.csproj", "{FD4AFB40-13FC-4C1E-B8C2-4EFEAC83C147}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.DataEntities", "AQR.DataEntities\AQR.DataEntities.csproj", "{A30A0349-D556-4774-8E7E-3C4DD3707040}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AQR.UserManagementTestCases", "AQR.UserManagementTestCases\AQR.UserManagementTestCases.csproj", "{B26F42F5-F572-4D41-80B5-DCBA6A031E2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C1C2D5-29DF-4093-AAA7-B344AA537CCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C1C2D5-29DF-4093-AAA7-B344AA537CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C1C2D5-29DF-4093-AAA7-B344AA537CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C1C2D5-29DF-4093-AAA7-B344AA537CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EBC3E7F-D65D-4810-BD2C-BF2D2DCD416F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EBC3E7F-D65D-4810-BD2C-BF2D2DCD416F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EBC3E7F-D65D-4810-BD2C-BF2D2DCD416F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EBC3E7F-D65D-4810-BD2C-BF2D2DCD416F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF30DE83-6D27-46FF-A6AB-1CAE6ED4DFBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF30DE83-6D27-46FF-A6AB-1CAE6ED4DFBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF30DE83-6D27-46FF-A6AB-1CAE6ED4DFBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF30DE83-6D27-46FF-A6AB-1CAE6ED4DFBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4AFB40-13FC-4C1E-B8C2-4EFEAC83C147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4AFB40-13FC-4C1E-B8C2-4EFEAC83C147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4AFB40-13FC-4C1E-B8C2-4EFEAC83C147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4AFB40-13FC-4C1E-B8C2-4EFEAC83C147}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30A0349-D556-4774-8E7E-3C4DD3707040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30A0349-D556-4774-8E7E-3C4DD3707040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30A0349-D556-4774-8E7E-3C4DD3707040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30A0349-D556-4774-8E7E-3C4DD3707040}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B26F42F5-F572-4D41-80B5-DCBA6A031E2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26F42F5-F572-4D41-80B5-DCBA6A031E2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26F42F5-F572-4D41-80B5-DCBA6A031E2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26F42F5-F572-4D41-80B5-DCBA6A031E2E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

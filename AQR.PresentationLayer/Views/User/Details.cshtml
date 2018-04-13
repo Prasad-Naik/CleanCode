@@ -1,0 +1,58 @@
+﻿@model AQR.DomainModels.User
+
+@{
+    ViewBag.Title = "Details";
+}
+<div style="font-family: Arial">
+    <h2>Details Of User</h2>
+    <br /><br />
+    <fieldset>
+        <legend>User</legend>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.FirstName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.FirstName)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.LastName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.LastName)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Password)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Password)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.City)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.City)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Gender)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Gender)
+        </div>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.Department.DepartmentName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.Department.DepartmentName)
+        </div>
+    </fieldset>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.UserId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+    </div>
